@@ -1,0 +1,93 @@
+.recent-avatar-container,
+.recent-response-container {
+  padding-left: 10%;
+}
+
+.recent {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: underline;
+}
+.recent-avatar,
+.recent-response {
+  display: flex;
+  text-align: justify;
+}
+.recent-title {
+  display: flex;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.recent-list {
+  margin: 2px;
+  padding: 2px;
+  text-align: left;
+}
+.recent-avatar-details {
+  display: flex;
+  //   justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+.issues-container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-evenly;
+}
+.issue-container {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.issue-bar {
+  border: #000 solid 1px;
+  width: 250px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.response-now-container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 60%;
+}
+.vin-diagram {
+  width: 100%;
+}
+
+// Navbar style
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.nav li {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #93f28b;
+  color: #000;
+  border: #000 1px solid;
+}
+.nav li.active {
+  background-color: #2931ee;
+  color: #fff;
+}
+
+.nav li:hover {
+  background-color: #173090;
+  color: #fff;
+}

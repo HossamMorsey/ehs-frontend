@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  // margin: 1rem;
+  text-align: center;
+}
+.body-container{
+  padding-top: 10px;
+  margin: 10px;
+}
+
+.nav {
+  background-color: #a2e2fd;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.site-title {
+  font-family: "Anta", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// .nav ul {
+//   padding: 0;
+//   margin: 0;
+//   list-style: none;
+//   display: flex;
+//   gap: 1rem;
+// }
+
+// .nav a {
+//   color: inherit;
+//   text-decoration: none;
+//   height: 100%;
+//   display: flex;
+//   align-items: center;
+//   padding: 0.25rem;
+// }
+
+// .nav li {
+//   font-family: "Times New Roman", Times, serif;
+//   background-color: #93f28b;
+//   color: #000;
+//   border: #000 1px solid;
+// }
+// .nav li.active {
+//   background-color: #2931ee;
+//   color: #fff;
+// }
+
+// .nav li:hover {
+//   background-color: #173090;
+//   color: #FFF;
+// }
+
+/* Hossam's Add-Ons */
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+.img-logo {
+  width: 45px;
+  height: 45px;
+  border: #fff 1px solid;
+  border-radius: 18%;
+}
+.profile-img{
+  width: 35px;
+  height: 35px;
+  border: #fff 1px solid;
+  border-radius: 50%;
+}
+/* Example for the google Font */
+.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* End of Example  */
+.example-img{
+  height: 200px;
+  width: auto;
+}
+// Progress Bar styles ::
+.wrapper {
+  border: 3px solid blue;
+} 
+
+.barCompleted {
+  background-color: lightblue;
+  width: 80%;
+}
+
+.label {
+  font-size: 20px;
+  color: green;
+}
